@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #202020;
+    background-color: #F0EFEA;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #202020;
+}
+
+nav {
+    display: flex;
+    position: relative;
+    margin: 35px 50px;
+    align-items: center;
+}
+
+nav li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+
+}
+
+.logo {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Cormorant', serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.left-menu {
+    position: absolute;
+    left: 0px;
+}
+
+.right-menu {
+    position: absolute;
+    right: 0px;
+}
+
+#headline {
+    width: 750px;
+    height: 650px;
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+}
+
+#header-image {
+    height: 600px;
+    width: 380px;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    bottom: 0;
+}
+
+#header-image img {
+    position: relative;
+    bottom: 0;
+    height: 105%;
+    width: auto;
+    left: -30px;
+}
+
+#header-text {
+    position: absolute;
+    right: 0px;
+    top: 250px;
+}
+
+#title{
+    font-family: 'Cormorant', serif;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+
+#sub-title {
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+#tribute-info {
+    width: 570px;
+    margin: 200px auto;
+    font-weight: 400;
+}
+
+.text-year--title {
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: 'Cormorant', serif;
+    font-size: 44px;
+}
+
+.text-year--ul li{
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 10px;
+}
+
+.text-year--ul span {
+    font-weight: 700;
+}
+
+#img-div {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#image {
+    max-width: 100%;
+}
+
+#img-caption {
+    width: 570px;
+    font-size: 14px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+#testimonial-div {
+    position: relative;
+    display: flex;
+    width: 750px;
+    margin: 200px auto;
+}
+
+#testimonial-img-div {
+    position: relative;
+    height: 350px;
+    width: 240px;
+    overflow: hidden;
+    left: 0;
+}
+
+#testimonial-img {
+    position: relative;
+    max-height: 120%;
+    left: -135px;
+    top: -20px;
+}
+
+#testimonial-text {  
+    position: relative;  
+    top: 50%;
+    margin: -15% 0 0 -25%;
+    font-family: 'Cormorant', serif;
+    font-size: 18px;
+    width: 450px;
+    position: absolute;
+    right: 0;
+}
+
+#testimonial-quote {
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+#testimonial-name span{
+    font-weight: 700;
+}
+
+#wiki {
+    font-size: 14px;
+    width: 530px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#wiki a{
+    text-decoration: underline;
+}
